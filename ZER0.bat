@@ -4,7 +4,6 @@ title ZER0 OPTIMIZER
 if not "%1"=="am_admin" (powershell start -verb runas '%0' am_admin & exit /b)
 
 
-
 :variables
 set green=[0;32m
 set red=[0;31m
